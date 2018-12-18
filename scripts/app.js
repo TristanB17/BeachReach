@@ -1,0 +1,1 @@
+$('.hide').not('#welcome').hide()

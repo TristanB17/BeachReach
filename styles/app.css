@@ -11,6 +11,7 @@
 }
 
 .new-search-font {
+  font-family: 'Concert One', cursive;
   font-size: 2em;
 }
 
@@ -24,8 +25,43 @@
 }
 
 .welcome-text {
+  position: relative;
+  color: white;
+  font-size: 5em;
+  font-family: 'Concert One', cursive;
+  z-index: 1;
+}
+
+.welcome-text:after {
+  content:'';
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  opacity: 0.7;
+  background-color: #2A9EEB;
+  border-radius: 25px;
+}
+
+.new-search-text {
+  position: relative;
   color: white;
   font-size: 3em;
   font-family: 'Concert One', cursive;
-  background-color: cyan;
+  z-index: 1;
+}
+
+.new-search-text:after {
+  content:'';
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  opacity: 0.7;
+  background-color: #2A9EEB;
+  border-radius: 25px;
 }

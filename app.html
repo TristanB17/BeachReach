@@ -5,7 +5,7 @@
     <meta name="viewport" content='width=device-width, initial-scale=1.0'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="/styles/app.css">
     <title>BeachReach - Breech Each Beach!</title>
   </head>
@@ -36,12 +36,20 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="column is-6 is-offset-3">
-            <h1 class="title is-size-1 welcome-text">
-              Welcome to BeachReach!
-            </h1>
+            <div class="welcome-text-container hide" id='welcome'>
+              <h1 class="title is-info welcome-text">
+                Welcome to BeachReach!
+              </h1>
+            </div>
+            <div class="new-search-container hide">
+              <h2 class="title is-info new-search-text">
+                Enter Search Info
+              </h2>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </body>
 </html>
+<script src='/scripts/app.js'></script>
