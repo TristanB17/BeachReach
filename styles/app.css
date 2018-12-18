@@ -1,9 +1,31 @@
 .item-with-space {
-  padding-left: 15vh;
+  padding-left: 2em;
   font-family: Brush Script MT, Brush Script Std, cursive;
-  font-size: 8vh;
+  font-size: 2.5em;
+  text-align: center;
 }
 
 .special-font {
   font-family: 'Concert One', cursive;
+  color: white;
+}
+
+.new-search-font {
+  font-size: 2em;
+}
+
+.bg-img {
+  background-image: url("https://www.lifewire.com/thmb/rod_R7ijXb_LPsOduQLiRPVnu8c=/1920x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/wave-free-ocean-wallpapers-desktopnexus-58d93da75f9b584683958ad2.jpg") ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+}
+
+.welcome-text {
+  color: white;
+  font-size: 3em;
+  font-family: 'Concert One', cursive;
+  background-color: cyan;
 }
